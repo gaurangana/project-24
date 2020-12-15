@@ -34,7 +34,7 @@ function setup() {
 	  GROUNDSPRITE= createSprite(ground.position.x , ground.position.y,1200,20)
 
 	  dustbin1= new Dustbin(792,310,20,200)
-	  dustbin2= new Dustbin(1010,291,20,180)
+	  dustbin2= new Dustbin(1010,305,20,200)
 	  dustbin3= new Dustbin(900,380,200,20)
 	  paperObject = new Paper (136,347)
 
