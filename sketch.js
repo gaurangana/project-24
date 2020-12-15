@@ -34,7 +34,7 @@ function setup() {
 	  GROUNDSPRITE= createSprite(ground.position.x , ground.position.y,1200,20)
 
 	  dustbin1= new Dustbin(792,310,20,200)
-	  dustbin2= new Dustbin(1010,291,20,200)
+	  dustbin2= new Dustbin(1010,291,20,180)
 	  dustbin3= new Dustbin(900,380,200,20)
 	  paperObject = new Paper (136,347)
 
@@ -57,7 +57,7 @@ function draw() {
 }
 
 function keyPressed(){
-	if(KeyCode === UP_ARROW){
+	if(keyCode === UP_ARROW){
 		Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x: 85, y: -85 });
 		
 	}
