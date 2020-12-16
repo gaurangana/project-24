@@ -7,7 +7,7 @@ class Paper{
          density: 1.2
    
      }
-
+     this.image = loadImage("sprites.png/paper.png")
      this.body =   Bodies.circle(x,y,30,option)
      this.radius = 30;
   
