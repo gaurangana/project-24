@@ -8,7 +8,7 @@ class Dustbin{
    
      }
    
-     
+     this.image = loadImage("sprites.png/dustbingreen.png")
       this.wall =   Bodies.rectangle(x,y,w,h,option)
       this.width = w;
       this.height= h;
